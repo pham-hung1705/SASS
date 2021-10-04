@@ -1,0 +1,16 @@
+.container {
+  text-align: center; }
+  .container header {
+    background-color: #ff6363;
+    height: 10em; }
+  .container main .nav {
+    background-color: #8279ff;
+    height: 10em; }
+  .container main .content {
+    background-color: #67b8ff;
+    height: 10em; }
+  .container footer {
+    background-color: #7450b6;
+    height: 10em; }
+
+/*# sourceMappingURL=style_first.css.map */

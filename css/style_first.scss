@@ -1,0 +1,29 @@
+$height_max:10em;
+.container {
+    text-align: center;
+    header {
+        background-color: rgb(255, 99, 99);
+        height: $height_max;
+    }
+    main {
+        .nav {
+            background-color: rgb(130, 121, 255);
+            height: $height_max;
+        }
+        .content {
+            background-color: rgb(103, 184, 255);
+            height: $height_max;
+        }
+    }
+    footer {
+        background-color: rgb(116, 80, 182);
+        height: $height_max;
+    }
+}
+
+// tạo ra file html, rồi tạo tiếp 1 file scss 
+// và chăn chỉnh đúng theo tòa trung cư, 
+// 1 toà nhà trung cư bên trong sẽ có nhiều căn hộ,
+//  bên trong mỗi căn hộ là nội thất.
+// căn chỉnh file scss và mở koala ra duyệt file scss qua đó.
+//gán link scss vào html
