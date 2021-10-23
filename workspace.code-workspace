@@ -1,0 +1,19 @@
+{
+    "folders": [
+		{
+			"name": "Yii2_advance",
+			"path": "..\\..\\..\\..\\Yii2_advance"
+		},
+		{
+			"name": "week-Three",
+			"path": "c:\\xampp\\htdocs\\html-css\\week-Three"
+		},
+		{
+			"name": "html-css",
+			"path": "..\\..\\.."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "html-css"
+    }
+}
