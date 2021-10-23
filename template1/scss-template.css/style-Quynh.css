@@ -1,0 +1,13 @@
+body {
+  padding: 0px;
+  margin: 0px; }
+  body .about_us {
+    background-color: lightgray; }
+  body .customer_review .row {
+    background-color: #01094c;
+    color: white; }
+  body .customer_open .row {
+    background-color: #01094c;
+    color: white; }
+
+/*# sourceMappingURL=style-Quynh.css.map */

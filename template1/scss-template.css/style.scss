@@ -1,0 +1,117 @@
+        body {
+            margin: 0px;
+            padding: 0px;
+            h1 {
+                font-size: 4em;
+                padding-bottom: 1em;
+            }
+            .header {
+                background-image: url("./img-buoi4/nenheader_01.png");
+                height: 600px;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-origin: border-box;
+                font-size: 100px #0000;
+                img {
+                    float: right;
+                    width: 10%;
+                    position: relative;
+                    bottom: 50px;
+                    right: 70px;
+                }
+                a {
+                    color: black;
+                }
+                p {
+                    width: 40%;
+                }
+            }
+            .dark-coffee,
+            .cold-coffee,
+            .hot-coffee {
+                a {
+                    padding: 0.3em 4em;
+                    background: rgba(255, 104, 3, 0.986);
+                }
+                a:hover {
+                    background: rgb(255, 123, 0);
+                }
+                height: 37em;
+                background-repeat: no-repeat;
+                background-size: 53% 100%;
+                img,
+                p {
+                    position: relative;
+                    top: 10em;
+                }
+                .content {
+                    padding-top: 5em;
+                }
+            }
+            .dark-coffee {
+                background-image: url("./img-buoi4/1.png");
+                background-position: right;
+                p {
+                    text-align: right;
+                }
+            }
+            .cold-coffee {
+                background-image: url("./img-buoi4/2.png");
+                background-position: left;
+                p {
+                    margin-left: 2em;
+                    text-align: left;
+                }
+                .content {
+                    float: right;
+                    text-align: right;
+                }
+            }
+            .hot-coffee {
+                background-image: url("./img-buoi4/4.png");
+                background-position: right;
+                p {
+                    margin-right: 2em;
+                    text-align: right;
+                }
+            }
+            .gift-voucher {
+                border-top: 5px solid rgb(14, 12, 66);
+                border-bottom: 5px solid rgb(14, 12, 66);
+                height: 30em;
+                a {
+                    padding: 0.3em 4em;
+                    background: rgba(255, 104, 3, 0.986);
+                }
+                a:hover {
+                    background: rgb(255, 123, 0);
+                }
+                .border-voucher {
+                    margin: 2em;
+                    border: 0.5em solid rgb(14, 12, 66);
+                    padding: 2em;
+                    background-image: url("./img-buoi4/5.png");
+                    background-repeat: no-repeat;
+                    background-position: bottom center;
+                    .circle-free {
+                        background-color: rgb(14, 12, 66);
+                        border-radius: 50%;
+                        height: 15em;
+                        width: 15em;
+                        border: 0.5em solid rgb(255, 51, 0);
+                        img {
+                            width: 20%;
+                            position: relative;
+                            top: 2em;
+                            left: 6em;
+                        }
+                        h1 {
+                            position: relative;
+                            top: 0.6em;
+                            left: 0.6em;
+                            color: #ffff;
+                        }
+                    }
+                }
+            }
+        }

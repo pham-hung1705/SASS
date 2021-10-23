@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+  body h1 {
+    font-size: 4em;
+    padding-bottom: 1em; }
+  body .header {
+    background-image: url("./img-buoi4/nenheader_01.png");
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    font-size: 100px #0000; }
+    body .header img {
+      float: right;
+      width: 10%;
+      position: relative;
+      bottom: 50px;
+      right: 70px; }
+    body .header a {
+      color: black; }
+    body .header p {
+      width: 40%; }
+  body .dark-coffee,
+  body .cold-coffee,
+  body .hot-coffee {
+    height: 37em;
+    background-repeat: no-repeat;
+    background-size: 53% 100%; }
+    body .dark-coffee a,
+    body .cold-coffee a,
+    body .hot-coffee a {
+      padding: 0.3em 4em;
+      background: rgba(255, 104, 3, 0.986); }
+    body .dark-coffee a:hover,
+    body .cold-coffee a:hover,
+    body .hot-coffee a:hover {
+      background: #ff7b00; }
+    body .dark-coffee img,
+    body .dark-coffee p,
+    body .cold-coffee img,
+    body .cold-coffee p,
+    body .hot-coffee img,
+    body .hot-coffee p {
+      position: relative;
+      top: 10em; }
+    body .dark-coffee .content,
+    body .cold-coffee .content,
+    body .hot-coffee .content {
+      padding-top: 5em; }
+  body .dark-coffee {
+    background-image: url("./img-buoi4/1.png");
+    background-position: right; }
+    body .dark-coffee p {
+      text-align: right; }
+  body .cold-coffee {
+    background-image: url("./img-buoi4/2.png");
+    background-position: left; }
+    body .cold-coffee p {
+      margin-left: 2em;
+      text-align: left; }
+    body .cold-coffee .content {
+      float: right;
+      text-align: right; }
+  body .hot-coffee {
+    background-image: url("./img-buoi4/4.png");
+    background-position: right; }
+    body .hot-coffee p {
+      margin-right: 2em;
+      text-align: right; }
+  body .gift-voucher {
+    border-top: 5px solid #0e0c42;
+    border-bottom: 5px solid #0e0c42;
+    height: 30em; }
+    body .gift-voucher a {
+      padding: 0.3em 4em;
+      background: rgba(255, 104, 3, 0.986); }
+    body .gift-voucher a:hover {
+      background: #ff7b00; }
+    body .gift-voucher .border-voucher {
+      margin: 2em;
+      border: 0.5em solid #0e0c42;
+      padding: 2em;
+      background-image: url("./img-buoi4/5.png");
+      background-repeat: no-repeat;
+      background-position: bottom center; }
+      body .gift-voucher .border-voucher .circle-free {
+        background-color: #0e0c42;
+        border-radius: 50%;
+        height: 15em;
+        width: 15em;
+        border: 0.5em solid #ff3300; }
+        body .gift-voucher .border-voucher .circle-free img {
+          width: 20%;
+          position: relative;
+          top: 2em;
+          left: 6em; }
+        body .gift-voucher .border-voucher .circle-free h1 {
+          position: relative;
+          top: 0.6em;
+          left: 0.6em;
+          color: #ffff; }
+
+/*# sourceMappingURL=style.css.map */
